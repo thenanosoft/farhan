@@ -99,7 +99,7 @@ projects:(D,n)=>sec("projects",n,D.projects,h("div",{class:"grid"},D.projects.it
 skills:(D,n)=>sec("stack",n,D.skills,h("div",{class:"stack"},D.skills.groups.map(g=>h("div",{class:"row"},h("span",{class:"lbl"},g.name),h("p",null,g.items.join(", ")))))),
 ai:(D,n)=>sec("ai",n,D.ai,h("div",{class:"ai"},D.ai.items.map(x=>h("div",null,h("h3",null,x.title),h("p",null,x.text))))),
 education:(D,n)=>{const e=D.education,c=e.certifications;return sec("education",n,e,[
- e.items.map((x,i)=>job(x.period,x.degree,h("div",{class:"co"},x.school),x.text,i)),
+ ...e.items.map((x,i)=>job(x.period,x.degree,h("div",{class:"co"},x.school),x.text,i)),
  c&&job(c.label,"",null,c.items.join(", "),1)])},
 contact:(D,n)=>{const c=D.contact;return sec("contact",n,c,[h("p",{class:"line",style:"margin-top:0"},c.line),btns(c.buttons),
  c.meta&&h("p",{class:"meta"},c.meta),
