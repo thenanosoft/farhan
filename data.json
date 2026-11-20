@@ -1,0 +1,228 @@
+{
+  "site": {
+    "title": "Farhan Ellahi — Senior Full-Stack Developer | AI Developer",
+    "description": "Farhan Ellahi, Senior Full-Stack Developer and AI Developer. 6+ years, 50+ projects, Upwork Top Rated. Available for remote jobs and freelance projects.",
+    "brand": "Farhan Ellahi",
+    "footer": "© 2026 Farhan Ellahi · Rahim Yar Khan, Pakistan"
+  },
+  "order": ["hero", "about", "experience", "projects", "skills", "ai", "education", "contact"],
+  "hero": {
+    "label": "Hero",
+    "name": "Farhan Ellahi",
+    "photo": "",
+    "title": "Senior Full-Stack Developer | AI Developer",
+    "line": "I build web apps, WordPress and Shopify stores, mobile apps and AI products for clients in the USA, UK and Europe.",
+    "buttons": [
+      { "label": "Contact me", "href": "#contact", "primary": true },
+      { "label": "See projects", "href": "#projects" }
+    ],
+    "meta": "Rahim Yar Khan, Punjab, Pakistan · Remote · Available for remote jobs and freelance projects"
+  },
+  "stats": [
+    { "value": "6+", "label": "Years" },
+    { "value": "50+", "label": "Projects" },
+    { "value": "Top Rated", "label": "Upwork" },
+    { "value": "100%", "label": "Job Success" }
+  ],
+  "about": {
+    "title": "About",
+    "text": [
+      "I’m a full-stack developer working since 2018, founder of NanoSoft and builder of the AI SaaS Writon. I build for US, UK and EU clients.",
+      "I own projects end to end, from database design to deployment on Linux VPS.",
+      "Clear communication, honest timelines, clean handover."
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Founder",
+        "company": "NanoSoft",
+        "link": "https://thenanosoft.com",
+        "period": "2023 — Present",
+        "text": "Web, mobile, AI and SEO work for clients worldwide. Built an in-house CRM and Writon, a live AI writing and publishing SaaS.",
+        "logo": ""
+      },
+      {
+        "role": "Full-Stack Developer (Contract)",
+        "company": "Prestige Worldwide",
+        "link": "https://grail.prestigeworldwide.luxury",
+        "period": "2025 — 2026",
+        "text": "Sole developer for a luxury e-commerce catalog of 30,000+ products. Built the WooCommerce storefront and a multi-criteria filter and search system.",
+        "logo": ""
+      },
+      {
+        "role": "Freelance Full-Stack Developer",
+        "company": "Upwork",
+        "link": "",
+        "period": "Nov 2018 — Present",
+        "text": "20+ completed projects. Top Rated, 100% Job Success. Shopify, WordPress, WooCommerce, custom plugins, security and speed work.",
+        "logo": ""
+      },
+      {
+        "role": "Technical Lead & Web Developer (Contract)",
+        "company": "Foster Learning, Lahore",
+        "link": "https://fosterlearning.org.pk",
+        "period": "Sep 2023 — Feb 2025",
+        "text": "Led development of custom learning management systems on WordPress with Tutor LMS.",
+        "logo": ""
+      },
+      {
+        "role": "Junior Frontend Developer",
+        "company": "Bitsclan IT Solutions, Lahore",
+        "link": "",
+        "period": "Apr 2022 — May 2022",
+        "text": "WordPress sites, React components, custom site for a delivery company.",
+        "logo": ""
+      },
+      {
+        "role": "Frontend Developer (Intern)",
+        "company": "Intelliscence, Lahore",
+        "link": "",
+        "period": "Apr 2022 — May 2022",
+        "text": "WordPress landing pages and login/sign-up pages.",
+        "logo": ""
+      },
+      {
+        "role": "Senior WordPress Developer",
+        "company": "",
+        "link": "",
+        "period": "Also",
+        "text": "",
+        "logo": ""
+      }
+    ]
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "items": [
+      {
+        "name": "Writon",
+        "label": "Featured · My own product",
+        "featured": true,
+        "text": "My own live AI SaaS: AI article writing, featured images, quality scoring, autopilot scheduling and one-click WordPress publishing.",
+        "tags": ["React", "Next.js", "OpenAI", "WordPress API"],
+        "link": "https://writon.co",
+        "linkLabel": "writon.co",
+        "image": ""
+      },
+      {
+        "name": "NanoSoft Platform",
+        "text": "My company platform with CRM, live chat, email campaigns, WhatsApp bot integrations, admin panels, projects and finance.",
+        "tags": ["React", "Next.js", "Node.js"],
+        "link": "https://thenanosoft.com",
+        "linkLabel": "thenanosoft.com",
+        "image": ""
+      },
+      {
+        "name": "Clipse Brand",
+        "text": "Shopify store enhancements for a clothing brand. Client review: responsive, professional, updates completed properly, clear communication.",
+        "tags": ["Shopify", "Liquid"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "Luxury watches e-commerce (via Upwork)",
+        "text": "E-commerce work for a luxury watches brand.",
+        "tags": ["E-commerce", "Upwork"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "Physics of Wellness",
+        "text": "Website rebuild and SEO for a US client, Jeffrey LaCour. Ongoing.",
+        "tags": ["WordPress", "SEO"],
+        "link": "https://physicsofwellness.com",
+        "linkLabel": "physicsofwellness.com",
+        "image": ""
+      },
+      {
+        "name": "Bin Shabbir",
+        "text": "WhatsApp Business Cloud API and Chatwoot setup for a footwear and clothing shop in Rahim Yar Khan.",
+        "tags": ["WhatsApp Cloud API", "Chatwoot"],
+        "link": "https://binshabir.pk",
+        "linkLabel": "binshabir.pk",
+        "image": ""
+      },
+      {
+        "name": "n8n Multi-Agent AI Workflow",
+        "text": "Fixed a client’s n8n workflow (GPT + RAG + CRM) that was mostly working but had one critical issue. Made it stable and reliable. Client review: “Farhan was amazing to work with... fixed it in no time.”",
+        "tags": ["n8n", "GPT", "RAG", "CRM"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "FamilyHomeBlog and SEOInsiderTips",
+        "text": "My own content sites with 400+ and 88 articles. Technical SEO: indexing, speed, schema.",
+        "tags": ["Technical SEO", "Schema", "Speed"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "Blood Donation App",
+        "text": "Final-year Flutter app connecting blood donors with nearby centres (20–100 km), with donation history and analytics.",
+        "tags": ["Flutter"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "GitHub",
+        "text": "60+ repositories, mostly my own side projects and a repo archive. Side projects and experience, not client work.",
+        "tags": [],
+        "link": "https://github.com/thenanosoft",
+        "linkLabel": "github.com/thenanosoft",
+        "image": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "groups": [
+      { "name": "Languages", "items": ["JavaScript", "TypeScript", "PHP", "Python", "Java", "SQL"] },
+      { "name": "Frontend", "items": ["React", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS", "Sass", "Bootstrap", "Tailwind CSS"] },
+      { "name": "Backend", "items": ["Node.js", "Express", "PHP", "MySQL", "MongoDB", "GraphQL", "Supabase"] },
+      { "name": "CMS & E-commerce", "items": ["WordPress", "WooCommerce", "Shopify / Liquid", "Tutor LMS", "Strapi", "Contentful"] },
+      { "name": "Mobile", "items": ["Flutter", "React Native"] },
+      { "name": "AI & Automation", "items": ["OpenAI API", "Claude API", "RAG", "n8n", "Make", "Zapier", "Claude Code", "Codex"] },
+      { "name": "DevOps & Tools", "items": ["Git", "GitHub", "GitHub Actions", "Linux VPS", "cPanel", "Vercel", "Security hardening", "Deployment and hosting management"] }
+    ]
+  },
+  "ai": {
+    "title": "AI Development",
+    "items": [
+      { "title": "AI products", "text": "AI chatbots trained on a business’s own website and docs (RAG), OpenAI and Claude integrations, AI SaaS products." },
+      { "title": "AI automations", "text": "n8n and Make workflows connecting forms, CRMs, email and sheets, with GPT scoring and routing." },
+      { "title": "Agentic coding", "text": "I build current projects with Claude Code and Codex to write production code faster, then I review, test, fix and deploy it myself. AI is my tool. I own the code and the result." }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      { "degree": "BS Computer Science", "school": "Khwaja Fareed University of Engineering & IT (KFUEIT), Rahim Yar Khan", "period": "2018 — 2022", "text": "Final-year project: Blood Donation App in Flutter." },
+      { "degree": "F.Sc. Pre-Engineering", "school": "WAPDA Degree College Guddu", "period": "2014 — 2016", "text": "" },
+      { "degree": "Matriculation", "school": "WAPDA Boys High School Guddu", "period": "2012 — 2014", "text": "" }
+    ],
+    "certifications": {
+      "label": "Certifications",
+      "items": ["SEO (DigiSkills)", "WordPress Security (Udemy)", "Git & GitHub", "SQL", "Microsoft Office Specialist (2018)"]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "line": "Send your project details — I reply in 12–24 hours with the best way to build it.",
+    "buttons": [
+      { "label": "WhatsApp me", "href": "https://wa.me/923351270011", "primary": true },
+      { "label": "Email me", "href": "mailto:farhan987ellahi@gmail.com" }
+    ],
+    "meta": "Available Monday to Saturday for remote jobs and freelance projects.",
+    "items": [
+      { "label": "WhatsApp / Phone", "text": "+92 335 1270011", "href": "https://wa.me/923351270011" },
+      { "label": "Email", "text": "farhan987ellahi@gmail.com", "href": "mailto:farhan987ellahi@gmail.com" },
+      { "label": "Upwork", "text": "Upwork profile", "href": "https://www.upwork.com/freelancers/~011b5a115daa39500a" },
+      { "label": "LinkedIn", "text": "linkedin.com/in/farhanellahi", "href": "https://linkedin.com/in/farhanellahi" },
+      { "label": "GitHub", "text": "github.com/thenanosoft", "href": "https://github.com/thenanosoft" },
+      { "label": "Website", "text": "thenanosoft.com", "href": "https://thenanosoft.com" },
+      { "label": "Languages", "text": "English (professional), Urdu (native)", "href": "" }
+    ]
+  }
+}

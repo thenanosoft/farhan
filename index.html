@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Farhan Ellahi — Portfolio</title>
+<meta name="description" content="Farhan Ellahi, Senior Full-Stack Developer and AI Developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111111;--mute:#5c5c5c;--line:#e4e4e4;--acc:#0f62fe;--soft:#f6f6f6;
+--sans:"Inter","IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color-scheme:light}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:#fff;color:var(--ink);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+.lbl{font:500 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.lbl.acc{color:var(--acc)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:#fff;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:56px;gap:16px}
+.brand{font-weight:700;color:var(--ink)}
+nav{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+nav a{color:var(--mute);font-size:14px}nav a:hover{color:var(--acc);text-decoration:none}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(34px,6vw,52px);line-height:1.1;margin:14px 0 8px;letter-spacing:-.02em}
+h2{font-size:24px;margin:10px 0 24px;letter-spacing:-.01em}
+h3{font-size:17px;margin:0}
+p{margin:0 0 10px}
+.sub{font-size:20px;color:var(--mute);margin:0 0 6px}
+.hero{padding:64px 0 48px}
+.top{display:flex;gap:20px;align-items:center}
+.photo{width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+.line{font-size:18px;max-width:620px;margin:16px 0 24px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.btn{display:inline-block;padding:10px 18px;border:1px solid var(--acc);border-radius:4px;font-weight:600;font-size:15px}
+.btn.p{background:var(--acc);color:#fff}.btn:hover{text-decoration:none;opacity:.88}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.stat{padding:16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0}
+.stat b{display:block;font-size:20px;line-height:1.2}.stat span{font-size:13px;color:var(--mute)}
+.meta{font-size:14px;color:var(--mute);margin-top:14px}
+.about p{max-width:640px}
+.job{display:grid;grid-template-columns:170px 1fr;gap:8px 24px;padding:16px 0;border-top:1px solid var(--line)}
+.job.first{border-top:0;padding-top:0}
+.job .d{font:400 13px/1.6 var(--mono);color:var(--mute)}
+.job p{margin:4px 0 0;color:#333}.co{color:var(--mute);font-size:15px}
+.logo{height:32px;width:auto;max-width:120px;object-fit:contain;display:block;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{border:1px solid var(--line);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card.feat{grid-column:1/-1;border-color:var(--acc)}
+.card p{margin:0;color:#333;font-size:15px}
+.shot{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:4px;border:1px solid var(--line);background:var(--soft)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:4px}
+.tag{font:400 12px/1 var(--mono);padding:5px 8px;background:var(--soft);border-radius:3px;color:#333}
+.lk{font-size:14px;font-weight:500}
+.stack,.cl{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.row{padding:14px 0;border-top:1px solid var(--line)}
+.row .lbl{display:block;margin-bottom:6px}.row p{margin:0;font-size:15px}
+.ai{display:grid;gap:16px}
+.ai div{border-left:3px solid var(--acc);padding:2px 0 2px 16px}
+.ai p{margin:4px 0 0;color:#333;max-width:680px}
+.cl{margin-top:20px}
+.cl div{padding:12px 0;border-top:1px solid var(--line);font-size:15px;word-break:break-word}
+.cl .lbl{display:block;margin-bottom:4px}
+footer{padding:24px 0;font-size:13px;color:var(--mute)}
+.err{padding:48px 0;color:var(--mute)}
+@media(max-width:700px){
+.job{grid-template-columns:1fr}.grid,.stack,.cl{grid-template-columns:1fr}
+.brand{display:none}section{padding:44px 0}.top{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar"><a class="brand" href="#top" id="brand"></a><nav id="nav"></nav></div></header>
+<main id="top"><noscript><p class="wrap err">Please enable JavaScript to view this portfolio.</p></noscript></main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+/* All content lives in data.json. Edit that file, not this one. */
+function h(t,a,...k){const e=document.createElement(t);for(const x in a||{}){const v=a[x];if(v==null||v===false||v==="")continue;if(x==="class")e.className=v;else e.setAttribute(x,v)}for(const c of k.flat())if(c!=null&&c!==false)e.append(c.nodeType?c:document.createTextNode(c));return e}
+const A=(href,txt,cls)=>h("a",{href,class:cls,...(/^https?:/.test(href)?{target:"_blank",rel:"noopener"}:{})},txt);
+const btns=l=>h("div",{class:"btns"},(l||[]).map(b=>A(b.href,b.label,"btn"+(b.primary?" p":""))));
+const sec=(id,n,d,body,cls)=>h("section",{id,class:cls},h("div",{class:"wrap"},h("span",{class:"lbl"},String(n).padStart(2,"0")+" — "+d.title),h("h2",null,d.title),body));
+const job=(d,t,sub,txt,i,logo)=>h("div",{class:"job"+(i?"":" first")},h("div",{class:"d"},d),h("div",null,logo&&h("img",{class:"logo",src:logo,alt:"",loading:"lazy"}),h("h3",null,t),sub,txt&&h("p",null,txt)));
+const R={
+hero:(D,n)=>{const d=D.hero;return h("section",{class:"hero"},h("div",{class:"wrap"},
+ h("span",{class:"lbl"},String(n).padStart(2,"0")+" — "+(d.label||"Hero")),
+ h("div",{class:"top"},d.photo&&h("img",{class:"photo",src:d.photo,alt:d.name}),h("div",null,h("h1",null,d.name),h("p",{class:"sub"},d.title))),
+ h("p",{class:"line"},d.line),btns(d.buttons),
+ D.stats?.length>0&&h("div",{class:"stats"},D.stats.map(s=>h("div",{class:"stat"},h("b",null,s.value),h("span",null,s.label)))),
+ d.meta&&h("p",{class:"meta"},d.meta)))},
+about:(D,n)=>sec("about",n,D.about,D.about.text.map(t=>h("p",null,t)),"about"),
+experience:(D,n)=>sec("experience",n,D.experience,D.experience.items.map((x,i)=>job(x.period,x.role,x.company&&h("div",{class:"co"},x.link?A(x.link,x.company):x.company),x.text,i,x.logo))),
+projects:(D,n)=>sec("projects",n,D.projects,h("div",{class:"grid"},D.projects.items.map(p=>h("div",{class:"card"+(p.featured?" feat":"")},
+ p.image&&h("img",{class:"shot",src:p.image,alt:p.name,loading:"lazy"}),
+ p.label&&h("span",{class:"lbl acc"},p.label),h("h3",null,p.name),h("p",null,p.text),
+ p.tags?.length>0&&h("div",{class:"tags"},p.tags.map(t=>h("span",{class:"tag"},t))),
+ p.link&&A(p.link,(p.linkLabel||p.link.replace(/^https?:\/\//,""))+" ↗","lk"))))),
+skills:(D,n)=>sec("stack",n,D.skills,h("div",{class:"stack"},D.skills.groups.map(g=>h("div",{class:"row"},h("span",{class:"lbl"},g.name),h("p",null,g.items.join(", ")))))),
+ai:(D,n)=>sec("ai",n,D.ai,h("div",{class:"ai"},D.ai.items.map(x=>h("div",null,h("h3",null,x.title),h("p",null,x.text))))),
+education:(D,n)=>{const e=D.education,c=e.certifications;return sec("education",n,e,[
+ e.items.map((x,i)=>job(x.period,x.degree,h("div",{class:"co"},x.school),x.text,i)),
+ c&&job(c.label,"",null,c.items.join(", "),1)])},
+contact:(D,n)=>{const c=D.contact;return sec("contact",n,c,[h("p",{class:"line",style:"margin-top:0"},c.line),btns(c.buttons),
+ c.meta&&h("p",{class:"meta"},c.meta),
+ h("div",{class:"cl"},c.items.map(i=>h("div",null,h("span",{class:"lbl"},i.label),i.href?A(i.href,i.text):i.text)))])}
+};
+const NAV={about:"about",experience:"experience",projects:"projects",skills:"stack",ai:"ai",education:"education",contact:"contact"};
+fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(D=>{
+ document.title=D.site.title;document.querySelector('meta[name=description]').content=D.site.description;
+ document.getElementById("brand").textContent=D.site.brand;document.getElementById("foot").textContent=D.site.footer;
+ const main=document.getElementById("top"),nav=document.getElementById("nav");
+ D.order.forEach((k,i)=>{if(!R[k]||!D[k])return;main.append(R[k](D,i+1));if(NAV[k])nav.append(A("#"+NAV[k],D[k].nav||D[k].title))});
+ if(location.hash)document.getElementById(location.hash.slice(1))?.scrollIntoView();
+}).catch(e=>{document.getElementById("top").append(h("p",{class:"wrap err"},"Could not load data.json. Open this site through GitHub Pages or a local server (python -m http.server), not by double-clicking the file. ("+e.message+")"))});
+</script>
+</body>
+</html>
